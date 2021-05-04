@@ -6,6 +6,8 @@
 [![License](https://img.shields.io/pypi/l/{{cookiecutter.project_name}})][license]
 
 [![Read the documentation at https://{{cookiecutter.project_name}}.readthedocs.io/](https://img.shields.io/readthedocs/{{cookiecutter.project_name}}/latest.svg?label=Read%20the%20Docs)][read the docs]
+[![The Ethical Source Principles](https://img.shields.io/badge/ethical-source-%23bb8c3c?labelColor=393162)][ethical source]
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)][contributor covenant]
 [![Tests](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg)][tests]
 [![Codecov](https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/branch/main/graph/badge.svg)][codecov]
 
@@ -14,6 +16,8 @@
 
 
 [pypi status]: https://pypi.org/project/{{cookiecutter.project_name}}/
+[ethical source]: https://ethicalsource.dev/principles/
+[contributor covenant]: CODE_OF_CONDUCT.md
 [read the docs]: https://{{cookiecutter.project_name}}.readthedocs.io/
 [tests]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests
 [codecov]: https://app.codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}
