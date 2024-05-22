@@ -72,7 +72,6 @@ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Command-line interface with [Click]
 - Static type-checking with [mypy]
 - Runtime type-checking with [Typeguard]
-- Automated Python syntax upgrades with [pyupgrade]
 - Security audit with [Bandit] and [Safety]
 - Check documentation examples with [xdoctest]
 - Generate API documentation with [autodoc] and [napoleon]
@@ -99,7 +98,6 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [prettier]: https://prettier.io/
 [pypi]: https://pypi.org/
 [pytest]: https://docs.pytest.org/en/latest/
-[pyupgrade]: https://github.com/asottile/pyupgrade
 [read the docs]: https://readthedocs.org/
 [release drafter]: https://github.com/release-drafter/release-drafter
 [ruff]: https://github.com/astral-sh/ruff
