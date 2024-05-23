@@ -26,8 +26,7 @@ click = ">=8.0.1"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"
-bandit = ">=1.7.4"
-coverage = {extras = ["toml"], version = ">=6.2"}
+coverage = { extras = ["toml"], version = ">=6.2" }
 darglint = ">=1.8.1"
 flake8-bugbear = ">=21.9.2"
 flake8-docstrings = ">=1.6.0"
@@ -44,8 +43,8 @@ sphinx = ">=4.3.2"
 sphinx-autobuild = ">=2021.3.14"
 sphinx-click = ">=3.0.2"
 typeguard = ">=2.13.3"
-xdoctest = {extras = ["colors"], version = ">=0.15.10"}
-myst-parser = {version = ">=0.16.1"}
+xdoctest = { extras = ["colors"], version = ">=0.15.10" }
+myst-parser = { version = ">=0.16.1" }
 
 [tool.poetry.scripts]
 {{cookiecutter.project_name}} = "{{cookiecutter.package_name}}.__main__:main"
@@ -84,6 +83,7 @@ extend-select = [
     "C90", # mccabe
     "I",   # isort
     "UP",  # pyupgrade
+    "S",   # flake8-bandit
 ]
 # ignore checks that conflict with ruff formatter (https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules)
 extend-ignore = [
@@ -102,6 +102,9 @@ extend-ignore = [
     "ISC001",
     "ISC002",
 ]
+
+[tool.ruff.lint.per-file-ignores]
+"*/test_*.py" = ["S101"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

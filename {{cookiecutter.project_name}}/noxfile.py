@@ -120,7 +120,6 @@ def precommit(session: Session) -> None:
         "--show-diff-on-failure",
     ]
     session.install(
-        "bandit",
         "ruff",
         "darglint",
         "flake8-bugbear",
