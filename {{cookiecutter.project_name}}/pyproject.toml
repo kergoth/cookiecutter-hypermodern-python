@@ -73,34 +73,34 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 extend-select = [
+    "B",   # flake8-bugbear
+    "C90", # mccabe
+    "D",   # pydocstyle
     "E",   # pycodestyle
     "F",   # pyflakes
-    "W",   # pycodestyle
-    "C90", # mccabe
     "I",   # isort
-    "UP",  # pyupgrade
-    "S",   # flake8-bandit
-    "B",   # flake8-bugbear
-    "D",   # pydocstyle
     "N",   # pep8-naming
     "RUF", # Ruff-specific rules
+    "S",   # flake8-bandit
+    "UP",  # pyupgrade
+    "W",   # pycodestyle
 ]
 # ignore checks that conflict with ruff formatter (https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules)
 extend-ignore = [
-    "W191",
+    "COM812",
+    "COM819",
+    "D206",
+    "D300",
     "E111",
     "E114",
     "E117",
-    "D206",
-    "D300",
+    "ISC001",
+    "ISC002",
     "Q000",
     "Q001",
     "Q002",
     "Q003",
-    "COM812",
-    "COM819",
-    "ISC001",
-    "ISC002",
+    "W191",
 ]
 
 [tool.ruff.lint.per-file-ignores]
