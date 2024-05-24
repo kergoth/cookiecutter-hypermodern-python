@@ -122,7 +122,6 @@ def precommit(session: Session) -> None:
     session.install(
         "ruff",
         "darglint",
-        "flake8-bugbear",
         "flake8-docstrings",
         "flake8-rst-docstrings",
         "pep8-naming",
