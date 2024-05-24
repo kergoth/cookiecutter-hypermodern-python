@@ -635,20 +635,6 @@ files = [
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
-name = "pep8-naming"
-version = "0.13.0"
-description = "Check PEP-8 naming conventions, plugin for flake8"
-optional = false
-python-versions = "*"
-files = [
-    {file = "pep8-naming-0.13.0.tar.gz", hash = "sha256:9f38e6dcf867a1fb7ad47f5ff72c0ddae544a6cf64eb9f7600b7b3c0bb5980b5"},
-    {file = "pep8_naming-0.13.0-py3-none-any.whl", hash = "sha256:069ea20e97f073b3e6d4f789af2a57816f281ca64b86210c7d471117a4b6bfd0"},
-]
-
-[package.dependencies]
-flake8 = ">=3.9.1"
-
-[[package]]
 name = "platformdirs"
 version = "2.5.2"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -1402,4 +1388,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "954c1125c1bfc84cd035109d9bec91b2dcee5f14ac3b31180823bb5dd27c239b"
+content-hash = "75851a4f353603c7c7425a2b2241b10ddf0e0523bc229b19d915afa2d7ca1a82"

@@ -123,7 +123,6 @@ def precommit(session: Session) -> None:
         "ruff",
         "darglint",
         "flake8-rst-docstrings",
-        "pep8-naming",
         "pre-commit",
         "pre-commit-hooks",
     )
