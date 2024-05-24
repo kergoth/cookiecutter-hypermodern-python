@@ -1,7 +1,6 @@
 [flake8]
-select = D,DAR,N,RST
+select = DAR,N,RST
 ignore = RST201,RST203,RST301
 max-line-length = 80
-docstring-convention = google
 rst-roles = class,const,func,meth,mod,ref
 rst-directives = deprecated
