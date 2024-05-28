@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
-    groups: &groups
+    groups:
       version-updates:
         applies-to: version-updates
       security-updates:
@@ -13,12 +13,20 @@ updates:
     directory: "/.github/workflows"
     schedule:
       interval: weekly
-    groups: *groups
+    groups:
+      version-updates:
+        applies-to: version-updates
+      security-updates:
+        applies-to: security-updates
   - package-ecosystem: pip
     directory: "/docs"
     schedule:
       interval: weekly
-    groups: *groups
+    groups:
+      version-updates:
+        applies-to: version-updates
+      security-updates:
+        applies-to: security-updates
   - package-ecosystem: pip
     directory: "/"
     schedule:
@@ -26,4 +34,8 @@ updates:
     versioning-strategy: lockfile-only
     allow:
       - dependency-type: "all"
-    groups: *groups
+    groups:
+      version-updates:
+        applies-to: version-updates
+      security-updates:
+        applies-to: security-updates
