@@ -2274,28 +2274,28 @@ as shown in the table below:
   - Python versions
 - - [pre-commit](the-pre-commit-session)
   - Ubuntu
-  - 3.10
+  - 3.12
 - - [safety](the-safety-session)
   - Ubuntu
-  - 3.10
+  - 3.12
 - - [mypy](the-mypy-session)
   - Ubuntu
-  - 3.10, 3.9, 3.8, 3.7
+  - 3.12, 3.11, 3.10, 3.9, 3.8
 - - [tests](the-tests-session)
   - Ubuntu
-  - 3.10, 3.9, 3.8, 3.7
+  - 3.12, 3.11, 3.10, 3.9, 3.8
 - - [tests](the-tests-session)
   - Windows
-  - 3.10
+  - 3.12
 - - [tests](the-tests-session)
   - macOS
-  - 3.10
+  - 3.12
 - - [coverage](the-coverage-session)
   - Ubuntu
-  - 3.10
+  - 3.12
 - - [docs-build](the-docs-build-session)
   - Ubuntu
-  - 3.10
+  - 3.12
 
 :::
 
