@@ -1,6 +1,0 @@
-[flake8]
-select = DAR,RST
-ignore = RST201,RST203,RST301
-max-line-length = 80
-rst-roles = class,const,func,meth,mod,ref
-rst-directives = deprecated

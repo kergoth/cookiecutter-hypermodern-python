@@ -122,10 +122,9 @@ def precommit(session: Session) -> None:
     ]
     session.install(
         "ruff",
-        "darglint",
-        "flake8-rst-docstrings",
         "pre-commit",
         "pre-commit-hooks",
+        "pydoclint",
     )
     session.run("pre-commit", *args)
     if args and args[0] == "install":
