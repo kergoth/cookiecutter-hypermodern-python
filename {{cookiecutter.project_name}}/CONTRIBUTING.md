@@ -50,11 +50,11 @@ $ poetry install
 ```
 
 You can now run an interactive Python session,
-or the command-line interface:
+or the beets command-line interface:
 
 ```console
 $ poetry run python
-$ poetry run {{cookiecutter.project_name}}
+$ poetry run beet
 ```
 
 [poetry]: https://python-poetry.org/
