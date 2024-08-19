@@ -47,3 +47,13 @@ repos:
     rev: v2.6.0
     hooks:
       - id: prettier
+  - repo: https://github.com/python-poetry/poetry
+    rev: 1.8.3
+    hooks:
+      - id: poetry-check
+      - id: poetry-lock
+      - id: poetry-install
+  - repo: https://github.com/repo-helper/pyproject-parser
+    rev: v0.11.1
+    hooks:
+      - id: check-pyproject
