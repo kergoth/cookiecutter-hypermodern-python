@@ -7,6 +7,7 @@ end-before: <!-- github-only -->
 [license]: license
 [contributor guide]: contributing
 [command-line reference]: usage
+[contributor covenant]: codeofconduct
 
 ```{toctree}
 ---
