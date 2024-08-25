@@ -14,7 +14,6 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
 [![Ruff codestyle][ruff badge]][ruff project]
 
-
 [pypi status]: https://pypi.org/project/{{cookiecutter.project_name}}/
 [ethical source]: https://ethicalsource.dev/principles/
 [contributor covenant]: CODE_OF_CONDUCT.md
