@@ -23,25 +23,24 @@
 [ruff badge]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json
 [ruff project]: https://github.com/charliermarsh/ruff
 
-## Features
-
-- TODO
-
-## Requirements
-
-- TODO
+The [{{cookiecutter.beets_plugin_name}}](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}) plugin for [beets][] does something useful.
 
 ## Installation
 
-You can install _{{cookiecutter.friendly_name}}_ via [pip] from [PyPI]:
+As the beets documentation describes in [Other plugins][], to use an external plugin like this one, there are two options for installation:
 
-```console
-$ pip install {{cookiecutter.project_name}}
-```
+- Make sure it’s in the Python path (known as `sys.path` to developers). This just means the plugin has to be installed on your system (e.g., with a setup.py script or a command like pip or easy_install). For example, `pip install {{cookiecutter.project_name}}`.
+- Set the pluginpath config variable to point to the directory containing the plugin. (See Configuring) This would require cloning or otherwise downloading this [repository](https://github.com/kergoth/beets-stylize) before adding to the pluginpath.
 
-## Usage
+## Configuring
 
-Please see the [Command-line Reference] for details.
+First, enable the `{{cookiecutter.beets_plugin_name}}` plugin (see [Using Plugins][]).
+
+Describe plugin configuration here.
+
+## Using
+
+Describe plugin usage here. Please see the [Command-line Reference] for the command-line interface.
 
 ## Contributing
 
@@ -60,13 +59,15 @@ please [file an issue] along with a detailed description.
 
 ## Credits
 
+This project is a plugin for the [beets][] project, and would not exist without that fantastic project.
 This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter] template.
 
 [@cjolowicz]: https://github.com/cjolowicz
-[pypi]: https://pypi.org/
 [hypermodern python cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 [file an issue]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/issues
-[pip]: https://pip.pypa.io/
+[beets]: https://beets.readthedocs.io/en/stable/index.html
+[other plugins]: https://beets.readthedocs.io/en/stable/plugins/index.html#other-plugins
+[using plugins]: https://beets.readthedocs.io/en/stable/plugins/index.html#using-plugins
 [ethical source license]: https://ethicalsource.dev/faq/#what-is-an-ethical-license-for-open-source
 
 <!-- github-only -->
