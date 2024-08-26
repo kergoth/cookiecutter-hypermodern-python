@@ -51,7 +51,7 @@ tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["{{cookiecutter.package_name}}", "tests"]
+source = ["{{cookiecutter.package_name}}"]
 
 [tool.coverage.report]
 show_missing = true
