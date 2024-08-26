@@ -46,6 +46,7 @@ You need Python 3.8+ and the following tools:
 Install the package with development requirements:
 
 ```console
+$ poetry env use python3.10
 $ poetry install
 ```
 
