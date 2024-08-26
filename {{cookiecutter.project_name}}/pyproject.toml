@@ -90,7 +90,7 @@ extend-select = [
     "W",   # pycodestyle
 ]
 # ignore checks that conflict with ruff formatter (https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules)
-extend-ignore = [
+ignore = [
     "COM812",
     "COM819",
     "D107", # undocumented-public-init conflicts with DOC301
