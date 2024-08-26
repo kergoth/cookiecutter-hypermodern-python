@@ -4,6 +4,8 @@ end-before: <!-- github-only -->
 ---
 ```
 
+<!-- markdownlint-disable MD053 -->
+
 [license]: license
 [contributor guide]: contributing
 [command-line reference]: usage
