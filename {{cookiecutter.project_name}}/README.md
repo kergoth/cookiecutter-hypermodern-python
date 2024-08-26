@@ -16,7 +16,6 @@
 
 [pypi status]: https://pypi.org/project/{{cookiecutter.project_name}}/
 [ethical source]: https://ethicalsource.dev/principles/
-[contributor covenant]: CODE_OF_CONDUCT.md
 [read the docs]: https://{{cookiecutter.project_name}}.readthedocs.io/
 [tests]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests
 [codecov]: https://app.codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}
