@@ -27,6 +27,7 @@ Changelog = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.proj
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
+beets = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"
